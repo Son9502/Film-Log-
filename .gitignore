@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Expo / build output
+.expo/
+dist/
+web-build/
+ios/
+android/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Environment — real values live in .env (never commit it)
+.env
+.env*.local
+
+# Logs & OS / editor junk
+npm-debug.*
+yarn-error.*
+*.log
+.DS_Store
+.vscode/
+.idea/
+*.tsbuildinfo
